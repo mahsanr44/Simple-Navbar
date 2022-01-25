@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar</title>
+    <style>
+        body {
+            background-image: url("https://source.unsplash.com/user/erondu/1370x650");
+            background-repeat: no-repeat;
+        }
+
+        .navbar {
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            padding: 4px 25px;
+            margin: 5px;
+            padding-top: 10px;
+        }
+
+        .navbar li:hover {
+            color: red;
+            cursor: pointer;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .search {
+            float: right;
+            padding: 10px;
+            margin: 2px 40px;
+        }
+
+        .search input {
+            border-radius: 2px;
+            padding: 2px 0px;
+        }
+
+        h1 {
+            text-align: center;
+            padding-top: 20%;
+            color: white;
+
+        }
+
+        h1:hover {
+            color: black;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search here...">
+                </div>
+            </ul>
+        </nav>
+        <h1>Muhammad Ahsan Raza</h1>
+    </header>
+</body>
+
+</html>
